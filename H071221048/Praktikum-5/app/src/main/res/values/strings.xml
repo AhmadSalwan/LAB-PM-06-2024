@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">H071221048_Andi Ahmad Salwan_Tugas5_Thread</string>
+    <string-array name="MyProfile">
+        <item>Mr.President</item>
+        <item>Can i get some Sleep?</item>
+    </string-array>
+
+    <string-array name="Presiden">
+        <item>Ir.Soekarno</item>
+        <item>Soeharto</item>
+        <item>B.J Habibie</item>
+        <item>Gusdur</item>
+        <item>Megawati</item>
+        <item>SBY</item>
+        <item>Jokowi</item>
+    </string-array>
+
+    <string-array name="Bio">
+        <item>The First</item>
+        <item>The Longest</item>
+        <item>Mr. Crack</item>
+        <item>The Sleeping Listener</item>
+        <item>The Princess</item>
+        <item>The Democracy\'s Father</item>
+        <item>Mr.Infrastructure</item>
+    </string-array>
+    <string-array name="Comments">
+        <item>Beri aku 1.000 orang tua, niscaya akan kucabut semeru dari akarnya. Beri aku 10 pemuda niscaya akan kuguncangkan dunia</item>
+        <item>Kenapa Kamu Tanya Begitu?</item>
+        <item>Keberhasilan bukanlah milik orang yang pintar. Keberhasilan adalah kepunyaan mereka yang senantiasa berusaha</item>
+        <item>DPR isinya taman kanak-kanak</item>
+        <item>Pak Jokowi Kalau gak ada PDIP kasian yah</item>
+        <item>Sahabat yang menjadikan kita lebih kuat adalah masalah yang didampingkan dengan solusi</item>
+        <item>Ya Ndak Tahu Kok Tanya Saya</item>
+    </string-array>
+</resources>

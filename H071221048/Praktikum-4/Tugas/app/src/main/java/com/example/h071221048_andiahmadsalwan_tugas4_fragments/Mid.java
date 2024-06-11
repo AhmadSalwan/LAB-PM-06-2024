@@ -31,7 +31,7 @@ public class Mid extends Fragment {
     EditText editText;
     Button submit;
     View view;
-    static Uri uri,imageUri;
+    static Uri imageUri;
     boolean cekGambar=false;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
