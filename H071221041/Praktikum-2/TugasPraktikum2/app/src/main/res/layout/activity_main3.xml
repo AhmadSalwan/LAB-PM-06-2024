@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#F8EEAC"
+    tools:context=".MainActivity3">
+
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/card">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="100dp"/>
+
+            <TextView
+                android:id="@+id/textNama"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginStart="100dp"/>
+
+            <TextView
+                android:id="@+id/textUname"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginStart="100dp"/>
+
+            <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="260dp"
+                android:layout_marginStart="25dp"/>
+
+            <TextView
+                android:id="@+id/textContent"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginStart="25dp"/>
+        </FrameLayout>
+
+</LinearLayout>

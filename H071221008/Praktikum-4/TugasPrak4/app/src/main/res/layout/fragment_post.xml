@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#CDE7F3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentContainerFl">
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#7f050061"
+        android:id="@+id/textViewKonten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Konten"
+        android:fontFamily="sans-serif"
+        android:layout_marginHorizontal="12dp"
+        android:textFontWeight="800" />
+
+    <EditText
+        android:textColor="#7f050061"
+        android:textColorHint="#7f05002f"
+        android:id="@+id/descriptionEt"
+        android:background="#7FD3C0EF"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:minHeight="100dp"
+        android:hint="Masukkan Konten"
+        android:cursorVisible="true"
+        android:maxLines="3"
+        android:layout_below="@id/textViewKonten"
+        android:layout_marginHorizontal="12dp" />
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#7f050061"
+        android:id="@+id/textViewPilihGambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Pilih Gambar"
+        android:layout_below="@id/descriptionEt"
+        android:fontFamily="sans-serif"
+        android:layout_marginHorizontal="12dp"
+        android:textFontWeight="800" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewGambar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/textViewPilihGambar"
+        android:layout_marginHorizontal="12dp"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+        android:id="@+id/imgContentIv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/camera_icon"
+        android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:textSize="16sp"
+        android:textColor="#7f050061"
+        android:id="@+id/postingBtn"
+        android:background="#7FE6DDDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Posting"
+        android:layout_below="@id/cardViewGambar"
+        android:layout_marginHorizontal="12dp" />
+</RelativeLayout>

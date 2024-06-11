@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#C5DFEC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="40dp"
+        app:cardCornerRadius="500dp">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/iqbal_ramadhan"
+            android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/text_fullname"
+        android:textSize="24sp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Iqbal Ramadhan"
+        android:layout_below="@id/card_view"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="800" />
+
+    <TextView
+        android:id="@+id/text_username"
+        android:textSize="16sp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iqbalramadhan"
+        android:layout_below="@id/text_fullname"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="300" />
+</RelativeLayout>

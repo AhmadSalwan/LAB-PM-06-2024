@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/post"
+    android:layout_margin="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="37.5dp">
+
+                <ImageView
+                    android:id="@+id/IV_Profile"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/saiyosakato1"/>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/TV_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="55dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                tools:text="Saiyo Sakato" />
+
+            <TextView
+                android:id="@+id/TV_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-25dp"
+                android:layout_marginStart="55dp"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:layout_below="@+id/TV_username"
+                tools:text="Minang" />
+
+            <ImageView
+                android:id="@+id/IV_Delete"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginEnd="-164dp"
+                android:src="@drawable/baseline_delete_24"
+                android:layout_toEndOf="@+id/TV_username"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                app:tint="#D9D9D9" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/TV_Desc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:text="Dengan berbagai hidangan lezat dan kaya rasa, masakan Padang pasti akan memuaskan selera Anda dan meninggalkan kesan yang tak terlupaka"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MaterialAlertDialog.Material3.Body.Text.CenterStacked"
+            app:cardCornerRadius="4dp">
+        <ImageView
+            android:id="@+id/IV_Postingan"
+            android:elevation="12dp"
+            android:layout_width="370dp"
+            android:layout_height="270dp"
+            android:src="@drawable/saiyosakato1"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"/>
+         </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

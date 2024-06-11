@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        tools:ignore="UselessParent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="171dp"
+            android:layout_height="175dp"
+            android:scaleType="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/image"
+            android:contentDescription="imageButton" />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Nama"
+        android:inputType="text"
+        android:autofillHints="nama"/>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:autofillHints="username" />
+    <Button
+        android:id="@+id/submitForm"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:text="SUBMIT"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+</LinearLayout>

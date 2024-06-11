@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".AddFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#7EA1FF"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:text="Tambah Postingan"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="150dp"
+        app:cardCornerRadius="500dp"
+        android:backgroundTint="#7EA1FF">
+
+    <ImageView
+        android:id="@+id/iv_post1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/photo"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="350dp"
+        android:text="Description"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="10dp"
+        android:hint="Description" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_post"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_card"
+        android:backgroundTint="#7EA1FF"
+        android:text="ADD POST"
+        android:textColor="@color/white" />
+
+</FrameLayout>
